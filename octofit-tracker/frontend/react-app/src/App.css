@@ -1,0 +1,107 @@
+
+body {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 60%, #00b4d8 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-brand img {
+  height: 36px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar-nav .nav-link.active {
+  color: #ffe066 !important;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.table th {
+  background: #007bff !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+.table-bordered {
+  border: 2px solid #007bff;
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger, .btn-secondary {
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 60%, #00b4d8 100%);
+  border: none;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 60%, #38f9d7 100%);
+  border: none;
+}
+.btn-info {
+  background: linear-gradient(90deg, #00c6fb 60%, #005bea 100%);
+  border: none;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #f7971e 60%, #ffd200 100%);
+  border: none;
+  color: #22223b;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #f857a6 60%, #ff5858 100%);
+  border: none;
+}
+.btn-secondary {
+  background: #adb5bd;
+  border: none;
+}
+
+a, .App-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #00b4d8;
+  text-decoration: underline;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border: none;
+}
+
+.modal-content {
+  border-radius: 16px;
+}
+
+/* Custom logo left alignment for navbar */
+.octofit-logo {
+  height: 36px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
